@@ -1,0 +1,133 @@
+		body { 
+			margin: 0;
+			font-family: Arial;
+			color: #888;
+
+		}
+		a {
+			text-decoration: none;
+		}
+		img {
+			width: 100%;
+		}
+		@media screen and (min-width: 480px) {
+		  body {
+		    
+		  }
+		}
+		#header {
+			background-image: url("header.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 0;
+			width: 100%;
+			float: left;
+		}
+		#logo {
+			float: left;
+			margin-top: 20px;
+			margin-left: 29px;
+		}
+		#links {
+			float: left;
+			margin-left: 17px;
+			margin-top: 37px;
+		}
+		#links a {
+			color: #FFF;
+			margin-left: 10px;
+			display: inline;
+		}
+		#links div {
+			float: left;
+		}
+
+		#main {
+			max-width: 800px;
+			width: auto;
+			padding: 0;
+			margin: 20px 3%;
+			float: left;
+		}
+		#p1 {
+			min-width: 300px;
+			max-width: 600px;
+			width: 67.7%;
+			height: auto;
+			float: left;
+			margin: 0 2.5% 2.5% 0;
+		}
+		#p2 {
+			max-width: 246px;
+			width: 27.75%;
+			height: auto;
+			float: left;
+			margin: 0 0 2.5% 0;
+		}
+		#p3 {
+			max-width: 246px;
+			width: 27.75%;
+			height: auto;
+			float: left;
+			margin: 0;
+		}
+
+		#about {
+			display: none;
+			color: #777;
+			border: 1px solid black;
+			margin: 0 auto;
+		}
+		#artist {
+			float: left;
+			max-width: 275px;
+			margin: 49px 0 0 140px;
+		}
+		#statement {
+			max-width: 425px;
+			float: left;
+			margin: 40px 100px 0 29px;
+		}
+		#statement h1 {
+			font-family: "Times New Roman", Times, serif;
+			text-decoration: none;
+			margin-top: 0px;
+			font-weight: normal;
+			letter-spacing: 1px;
+		}
+
+		#work {
+			display: none;
+			float: left;
+			margin: 31px 51px;
+		}
+		#left {
+			display: inline-block;
+		}
+		#right {
+			display: inline-block;
+		}
+		.w {
+			margin: 0 0 29px 50px;
+		}
+		#right div {
+			margin: 0 0 29px 50px;
+		}
+
+		#contact {
+			display: none;
+			margin: 50px 140px;
+			float: left;
+			font-family: "Garamond";
+			font-size: 20px;
+		}
+		#contact a {
+			color: #888;
+		}
+		
+		#footer {
+			float: left;
+			margin: 30px 25%;
+			width: 50%;
+
+		}
