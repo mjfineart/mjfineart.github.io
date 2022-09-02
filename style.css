@@ -10,13 +10,8 @@
 		img {
 			width: 100%;
 		}
-		@media screen and (min-width: 480px) {
-		  body {
-		    
-		  }
-		}
 		#header {
-			background-image: url("header.png");
+			background-image: url("images/header.png");
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding: 0;
@@ -102,16 +97,18 @@
 			margin: 31px 51px;
 		}
 		#left {
-			display: inline-block;
+			float: left;
 		}
 		#right {
-			display: inline-block;
+			float: left;
 		}
 		.w {
+			max-width: 450px;
 			margin: 0 0 29px 50px;
 		}
-		#right div {
-			margin: 0 0 29px 50px;
+
+		.w div {
+			margin: unset;
 		}
 
 		#contact {
