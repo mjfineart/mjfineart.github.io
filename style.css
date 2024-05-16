@@ -11,7 +11,7 @@
 			width: 100%;
 		}
 		#header {
-			background-image: url("images/header.png");
+			background-color: #000;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding: 0;
@@ -22,31 +22,37 @@
 			float: left;
 			margin-top: 20px;
 			margin-left: 29px;
+			margin-bottom: 25px;
 		}
 		#links {
 			float: left;
 			margin-left: 17px;
-			margin-top: 37px;
+			margin-top: 29px;
 		}
 		#links a {
 			color: #FFF;
 			margin-left: 10px;
+			margin-bottom: 4px;
 			display: inline;
+			font-size: 22px;
 		}
 		#links div {
 			float: left;
 		}
+		#centered {
 
+			max-width: 1200px;
+			margin: 0 auto;
+		}
 		#main {
-			max-width: 800px;
 			width: auto;
 			padding: 0;
-			margin: 20px 3%;
+			margin: 35px 3%;
 			float: left;
 		}
 		#p1 {
 			min-width: 300px;
-			max-width: 600px;
+			max-width: 740px;
 			width: 67.7%;
 			height: auto;
 			float: left;
@@ -75,7 +81,7 @@
 		}
 		#artist {
 			float: left;
-			max-width: 275px;
+			max-width: 300px;
 			margin: 49px 0 0 140px;
 		}
 		#statement {
@@ -116,7 +122,12 @@
 			margin: 50px 140px;
 			float: left;
 			font-family: "Garamond";
-			font-size: 20px;
+			font-size: 30px;
+			max-width: 500px;
+			border: 3px solid black;
+			border-radius: 15px;
+			padding: 20px;
+
 		}
 		#contact a {
 			color: #888;
